@@ -5,11 +5,11 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="header-info pull-left">
-                        <li><i class="fa fa-phone" aria-hidden="true"></i> Phone: ++91 9191919191</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> Phone: +91 8294918280, 7070800408</li>
                         <li>
-                            <a href="mailto:info@agrinacropcare.com"><i class="fa fa-envelope" aria-hidden="true"></i> info@agrinacropcare.com</a>
+                            <a href="mailto:hpmbusiness2@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> hpmbusiness2@gmail.com</a>
                         </li>
-                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> Mon-Fri: 7:00 - 18:00</li>
+                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> Mon-Fri: 9:00 - 18:00</li>
                     </ul>
                     <div class="pull-right">
                         <ul class="header-social social-icon">
@@ -39,9 +39,9 @@
                 <div class="col-md-12">
                     <div class="header-logo">
                         <a href="{{url('')}}">
-                            <img src="{{url('front_assets/img/logo.png')}}" alt="logo">
-                            <img class="logo-responsive" src="{{url('front_assets/img/logo.png')}}" alt="logo">
-                            <img class="logo-sticky" src="{{url('front_assets/img/logo.png')}}" alt="logo">
+                            <img src="{{url('front_assets/img/HPM1.png')}}" alt="logo">
+                            <img class="logo-responsive" src="{{url('front_assets/img/HPM1.png')}}" alt="logo">
+                            <img class="logo-sticky" src="{{url('front_assets/img/HPM1.png')}}" alt="logo">
                         </a>
                     </div>
                     <nav class="menu-container">
@@ -57,13 +57,13 @@
                                 <a href="#">Services</a>
                             </li>
                             <li>
-                                <a href="#">Gallery</a>
+                                <a href="#">Distributor Login</a>
                             </li>
                             <li>
-                                <a href="#">Blogs</a>
+                                <a href="#">e-shop Login</a>
                             </li>
                             
-                            <li><a href="{{url('contact-us')}}">Contact Us</a></li>
+                            <li class="{{ set_active('contact-us') }}"><a href="{{url('contact-us')}}">Contact Us</a></li>
                         </ul>
                         <div class="additional-menu">
                             <a class="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
