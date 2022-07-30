@@ -1,8 +1,8 @@
 @extends('master')
 
-@section('title')Contact Us - Agrina Crop Care @endsection
+@section('title')Contact Us - Hindustan Product Marketing service @endsection
 
-@section('description')Agrina Crop Care Description @endsection
+@section('description')Hindustan Product Marketing service @endsection
 
 
 @section('content')
@@ -39,7 +39,7 @@
                             <h3>Get in touch <strong class="text-color">With us</strong></h3>
                         </div>
                         <p>
-                            If you have any question about Agrina Crop Care or how we can help to maintenance your garden, please contact us directly by selecting from one of the below categories that is the most relevant to your inquiry and fill
+                            If you have any question about Hindustan Product Marketing service. please contact us directly by selecting from one of the below categories that is the most relevant to your inquiry and fill
                             our short feedback form.
                         </p>
                     </div>
@@ -61,7 +61,7 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input type="text" required value="{{old('name')}}" name="name" id="name" class="form-control" placeholder="Your name">
+                                        <input type="text" required value="{{old('name')}}" name="name" id="name" class="form-control" placeholder="Your Name">
                                     </div>
 									 <span class="form-text text-danger">@error('name')
                                         {{$message}}
@@ -81,7 +81,7 @@
                                 </div>
                                 <div class="col-sm-6">
 								<div class="form-group">
-                                        <input type="tel" min="10" required value="{{old('mobile')}}"  maxlength="10" pattern="[6789][0-9]{9}" name="mobile" id="mobile" class="form-control" placeholder="Your name">
+                                        <input type="tel" min="10" required value="{{old('mobile')}}"  maxlength="10" pattern="[6789][0-9]{9}" name="mobile" id="mobile" class="form-control" placeholder="Your Mobile Number">
                                     </div>
 									 <span class="form-text text-danger">@error('mobile')
                                         {{$message}}
@@ -111,19 +111,18 @@
                             <div class="icon-shape-disable">
                                 <i class="fa fa-building-o" aria-hidden="true"></i>
                             </div>
-                            <h5 class="text-color">Office Address</h5>
+                            <h5 class="text-color">Head Office</h5>
                             <p>
-                                Katihar <br>
-                                Bihar
+                                
                             </p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="content-box small left no-margin-lg">
                             <div class="icon-shape-disable">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i class="fa fa-building" aria-hidden="true"></i>
                             </div>
-                            <h5 class="text-color">Office Hours</h5>
+                            <h5 class="text-color">Bihar Office</h5>
                             <p>
                                 Monday to Friday : 7:00 - 18:00 <br>
                                 Saturday : 9:00 - 15:00

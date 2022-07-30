@@ -4,20 +4,20 @@
             <div class="col-md-5 col-lg-3">
                 <div class="footer-logo">
                     <a href="{{url('')}}">
-                        <img src="{{url('front_assets/img/logo.png')}}" alt="Footer Logo">
+                        <img src="{{url('front_assets/img/logo.jpeg')}}" alt="Footer Logo">
                     </a>
                 </div>
-                <p>Agrina Crop Care, provides all you need about Garden and Landscape Design for get better garden decorations.</p>
+                <p>HPM Services is India's number one service provider with only one aim and goal to guarantee our customers values & service. </p>
             </div>
 
             <div class="col-md-3 col-lg-2">
                 <h5 class="footer-title">Quick Links</h5>
                 <ul class="me-list">
-                    <li><a href="{{url('about-us')}}">About Us</a></li>
-                    <li><a href="#">Our Project</a></li>
-                    <li><a href="#">Term &amp; Conditions</a></li>
+                    <li><a href="{{url('/')}}">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Service </a></li>
                     <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Terms of Service</a></li>
                 </ul>
             </div>
 
@@ -25,7 +25,7 @@
                 <h5 class="footer-title">Contact Us</h5>
                 <p>
                     <strong>General Contact :</strong> <br>
-                    <a class="text-color" href="mailto:info@agrinacropcare.com">info@agrinacropcare.com</a> <br>
+                    <a class="text-color" href="mailto:hpmbusiness2@gmail.com">hpmbusiness2@gmail.com</a> <br>
                     
                 </p>
             </div>
@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="copyright pull-left">&copy; All rights reserved @php echo date('Y') @endphp, <strong>AGRINA CROP CARE PRIVATE LIMITED</strong> | <a href="http://ranasharma.com">Designed with <i class="fa fa-heart"></i> by WebFinic Enterprise</a></div>
+                    <div class="copyright pull-left">&copy; All rights reserved @php echo date('Y') @endphp, <strong>HINDUSTAN PRODUCT MARKETING SERVICES</strong> | <a href="http://ranasharma.com">Designed with <i class="fa fa-heart"></i> by WebFinic Enterprise</a></div>
                     <ul class="footer-social social-icon pull-right">
                         <li>
                             <a class="facebook-color" href="#"><i class="fa fa-facebook"></i></a>
