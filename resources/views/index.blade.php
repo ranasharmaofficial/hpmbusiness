@@ -212,10 +212,10 @@
                         <div class="feature-content">
                             <h5>Full Guarantees for All Works</h5>
                             <p class="gap" data-gap-bottom="10">
-                                This orientation was intugurated on 19-7-2019 at Bihar.
+                                This Organization was inagurated on 19-7-2019 at Bihar.
                                 We deal in Electronics, Home Product and Body Care Products. HPM Service has many years
-                                experience of marketting and personality development or product finance. We believe in
-                                quality and always work with quality persons.Thnks for trusting Us.
+                                experience of marketing, personality development and product finance. We believe in
+                                quality and always work with quality persons.</br>Thnks for trusting Us.
                             </p>
                         </div>
                     </div>
@@ -251,7 +251,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="mt-3">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -265,17 +265,12 @@
         </div>
     </section>
 
-    <section class="founder_section mb-2">
+    {{-- <section class="founder_section mb-2">
         <div class="container ">
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center">
                     <div class=" d-flex flex-column align-items-center himanshu pt-3 pb-3">
-                        {{-- <img src="{{ url('front_assets/img/post-author.jpg') }}" alt="">
-                        <div class="mt-2">
-                            <p>Mr. Himanshu Kumar</p>
-                            <p>Director &</p>
-                            <p>Bihar Distributor</p>
-                        </div> --}}
+                        
                         <div class="card" style="width: 18rem;">
                             <img src="{{ url('front_assets/img/post-author.jpg') }}" class="card-img-top" alt="...">
 
@@ -288,12 +283,7 @@
                         </div>
                     </div>
                     <div class=" d-flex flex-column align-items-center sandeep pt-3 pb-3 ml-4">
-                        {{-- <img src="{{ url('front_assets/img/post-author.jpg') }}" alt="">
-                        <div class="mt-2">
-                            <p>Mr. Sandeep Kumar</p>
-                            <p>Bihar Distributor &</p>
-                            <p>Bihar Management</p>
-                        </div> --}}
+                        
                         <div class="card" style="width: 18rem;">
                             <img src="{{ url('front_assets/img/post-author.jpg') }}" class="card-img-top" alt="...">
 
@@ -307,7 +297,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
     {{-- <div class="section testimonial-container">
