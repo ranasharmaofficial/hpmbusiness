@@ -4134,6 +4134,29 @@ ul.owl-carousel {
     background-color: #077810;
 }
 
+
+
+@media only screen and (max-width: 1320px) {
+    .mobile-some-activity-display {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+    .some-activity-display {
+        display: none;
+    }
+
+    .mobile-some-activity-display {
+        display: block;
+    }
+
+    p {
+        text-align: justify;
+    }
+}
+
 .founder_section .container {
     /* border: 2px solid gray; */
     border-radius: 10px;
@@ -4147,6 +4170,7 @@ ul.owl-carousel {
 
 .founder_section .sandeep img {
     border-radius: 10px 10px 0px 0px;
+    height: 238px;
 }
 
 .founder_section .himanshu div {
@@ -4189,6 +4213,25 @@ ul.owl-carousel {
 
 .founder_section .sandeep ul li:nth-child(2) {
     font-size: 14px;
-}.founder_section .himanshu ul li:nth-child(2) {
+}
+
+.founder_section .himanshu ul li:nth-child(2) {
+    font-size: 14px;
+}
+
+.company-address .container {
+    border-radius: 10px;
+}
+.company-address .container p i{
+    font-size: 18px;
+    margin-right: 3px;
+}
+.company-address .company-address-details p {
+    margin: 2px;
+    font-size: 14px;
+}
+
+.company-address .company-address-address p {
+    margin: 2px;
     font-size: 14px;
 }

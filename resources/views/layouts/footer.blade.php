@@ -32,7 +32,7 @@
 
             <div class="col-md-12 col-lg-5">
                 <h5 class="footer-title">Subscribe For Great Promo</h5>
-                <p>Join with our subscribers and get special price,<br>free garden magazine, promo product announcements and much more!</p>
+                <p>Join with our subscribers and get special price.</p>
 
                 <form class="subscribe-form">
                     <div class="input-group mb-3">
@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="copyright pull-left">&copy; All rights reserved @php echo date('Y') @endphp, <strong>HINDUSTAN PRODUCT MARKETING SERVICES</strong> | <a href="http://ranasharma.com">Designed with <i class="fa fa-heart"></i> by WebFinic Enterprise</a></div>
+                    <div class="copyright pull-left">&copy; All rights reserved @php echo date('Y') @endphp, <strong>HINDUSTAN PRODUCT MARKETING SERVICES</strong> </div>
                     <ul class="footer-social social-icon pull-right">
                         <li>
                             <a class="facebook-color" href="#"><i class="fa fa-facebook"></i></a>

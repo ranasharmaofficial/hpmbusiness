@@ -70,7 +70,7 @@
                             <div class="search-panel">
                                 <form action="#" class="form-search form-search-rounded">
                                     <div class="input-group-placeholder addon-right">
-                                        <input name="search" type="text" class="form-control" placeholder="ssssSearch here..">
+                                        <input name="search" type="text" class="form-control" placeholder="Search here..">
                                     </div>
                                 </form>
                             </div>
