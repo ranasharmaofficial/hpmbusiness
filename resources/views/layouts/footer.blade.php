@@ -7,7 +7,7 @@
                         <img src="{{url('front_assets/img/logo.jpeg')}}" alt="Footer Logo">
                     </a>
                 </div>
-                <p>HPM Services is India's number one service provider with only one aim and goal to guarantee our customers values & service. </p>
+                <p style="font-family: 'Ubuntu', sans-serif;text-align:justify">HPM Services is India's number one service provider with only one aim and goal to guarantee our customers values & service. </p>
             </div>
 
             <div class="col-md-3 col-lg-2">

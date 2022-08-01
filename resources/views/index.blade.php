@@ -1,16 +1,16 @@
 @extends('master')
 
 @section('title')
-    Home - Hindustan Product Marketing service
+    Home - Hindustan Product Marketing services
 @endsection
 
 @section('description')
-    Hindustan Product Marketing service
+    Hindustan Product Marketing services
 @endsection
 
 
 @section('content')
-    <div class="slideshow-container" id="hero">
+    {{-- <div class="slideshow-container" id="hero">
         <div class="slideshow" data-flex-fullscreen="true">
             <ul class="slides">
                 <li>
@@ -89,7 +89,31 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div> --}}
+
+    <section>
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="10000">
+                    <img src="{{ url('front_assets/img/slideshow/sl1.jpg') }}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="{{ url('front_assets/img/slideshow/sl2.jpg') }}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ url('front_assets/img/slideshow/sl1.jpg') }}" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev" style="background: transparent; border: none;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next" style="background: transparent; border: none;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+    </section>
 
     {{-- <section class="section what-we-do-container">
             <div class="container">
@@ -235,7 +259,7 @@
                     <div class="book_your_product"><a href="#">Book <br> Your Product</a></div>
                     <div class="quick_book_pay"><a href="#">Quick <br> Book & Pay</a></div>
                     <div class="register_hpm_product"><a href="#">Register for <br> HPM Product</a></div>
-                    <div class="join_pahal"><a href="#">Join Panal</a></div>
+                    <div class="join_pahal"><a href="#">Join Panel</a></div>
                     <div class="kyc"><a href="#">KYC</a></div>
                 </div>
             </div>
@@ -246,7 +270,7 @@
                     <div class="register_hpm_product"><a href="#">Register for <br> HPM Product</a></div>
                 </div>
                 <div class="col-md-12 d-flex justify-content-center some-activity">
-                    <div class="join_pahal"><a href="#">Join Panal</a></div>
+                    <div class="join_pahal"><a href="#">Join Panel</a></div>
                     <div class="kyc"><a href="#">KYC</a></div>
                 </div>
             </div>
@@ -266,7 +290,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <p>HPM Service is India's number one service provider with only one aim and goal to guarantee our
+                    <p>HPM Services is India's number one service provider with only one aim and goal to guarantee our
                         customers values & service. Enjoy you tomorrow in today and enjoy your life with financial freedom.
                     </p>
                     <p>This company has been started under the great founder of Mr. Himanshu Kumar amd management
@@ -285,7 +309,7 @@
                 <div class="col-md-6 d-flex justify-content-center">
                     <div class="d-flex flex-column align-items-center himanshu pt-3 pb-3">
                         <div class="card" style="width: 18rem;">
-                            <img src="{{ url('front_assets/img/himanshu.jpg') }}" class="card-img-top" alt="...">
+                            <img src="{{ url('front_assets/img/sandeep.jpg') }}" class="card-img-top" alt="...">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">Mr. Himanshu Kumar</li>
                                 <li class="list-group-item">Director & Bihar Distributor</li>
@@ -296,7 +320,7 @@
                 <div class="col-md-6 d-flex justify-content-center">
                     <div class=" d-flex flex-column align-items-center sandeep pt-3 pb-3">
                         <div class="card" style="width: 18rem;">
-                            <img src="{{ url('front_assets/img/sandeep.jpg') }}" class="card-img-top" alt="...">
+                            <img src="{{ url('front_assets/img/himanshu.jpg') }}" class="card-img-top" alt="...">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">Mr. Sandeep Kumar</li>
                                 <li class="list-group-item">Bihar&nbsp;Distributor&nbsp;&&nbsp;Management</li>
@@ -307,23 +331,24 @@
             </div>
         </div>
     </section>
-    <section class="mt-4 company-address" >
+    <section class="mt-4 company-address">
         <div class="container text-white mb-5" style="background-color: #10093d;">
             <div class="row">
                 <div class="col-md-6 company-address-details mb-3">
                     <h4 class="text-center text-white mt-2">Details</h2>
-                    <p><strong>Reg No</strong> : UDYAM-ER-27-0002681</p>
-                    <P><strong>GST No</strong> : IOCKVPK5830Q1Z1</P>
-                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i> hpmbusiness2@gmail.com</p>
-                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91 8294918280, 7070800408</p>
-                    
+                        <p><strong>Reg No</strong> : UDYAM-ER-27-0002681</p>
+                        <P><strong>GST No</strong> : IOCKVPK5830Q1Z1</P>
+                        <p><i class="fa fa-envelope-o" aria-hidden="true"></i> hpmbusiness2@gmail.com</p>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i> +91 8294918280, 7070800408</p>
+
 
                 </div>
                 <div class="col-md-6 company-address-address mb-3">
                     <h4 class="text-center text-white mt-2">Address</h4>
                     <p><strong>Head Office</strong> : Narain Market ,Sadar Bazar New Delhi-110006</p>
                     <p>HPM Services Bihar Office</p>
-                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> N.H 107 Main Road, Jankinagar, Purnea(Bihar)-854302</p>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> N.H 107 Main Road, Jankinagar,
+                        Purnea(Bihar)-854302</p>
                     <p>Mon-Friday : 9:00 to 18:00</p>
                 </div>
             </div>

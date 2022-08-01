@@ -9,6 +9,8 @@
  * Foundstrap Studio. Copyright 2021. All Rights Reserved.
  * -------------------------------------------------------------------------- */
 @import url("../../css");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 
 /* --------------------------------------------------------------------------
     [table of contents]
@@ -506,12 +508,12 @@ h6 {
 .btn.btn-outline {
     padding: 13px 30px;
     background-color: transparent;
-    border: 2px solid #87ba45;
-    color: #87ba45;
+    border: 2px solid #077810;
+    color: #077810;
 }
 
 .btn.btn-outline:hover {
-    background: #87ba45;
+    background: #077810;
     color: #fff;
 }
 
@@ -3286,7 +3288,8 @@ ul.owl-carousel {
 }
 
 #page-header .page-title-container {
-    background: url(../img/page-header-bg.jpg) no-repeat no-repeat center center;
+    background: url(../img/wave.svg) no-repeat no-repeat center center;
+    /* background: url(../img/page-header-bg.jpg) no-repeat no-repeat center center; */
     background-size: cover;
 }
 
@@ -3300,7 +3303,7 @@ ul.owl-carousel {
     top: 0;
     left: 0;
     position: absolute;
-    background: #000;
+    /* background: #000; */
     opacity: 0.65;
     z-index: 1;
 }
@@ -4166,11 +4169,12 @@ ul.owl-carousel {
 
 .founder_section .himanshu img {
     border-radius: 10px 10px 0px 0px;
+    height: 238px;
 }
 
 .founder_section .sandeep img {
     border-radius: 10px 10px 0px 0px;
-    height: 238px;
+    
 }
 
 .founder_section .himanshu div {
