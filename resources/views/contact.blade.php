@@ -13,7 +13,7 @@
                     <div class="centered-inner-container">
                         <h1 class="page-title">Contact Us</h1>
                         <hr class="separator small-separator">
-                        <div class="heading-caption">Let's Talk Business, Get in Touch!</div>
+                        {{-- <div class="heading-caption">Let's Talk Business, Get in Touch!</div> --}}
                     </div>
                 </div>
             </div>
@@ -124,8 +124,7 @@
                             </div>
                             <h5 class="text-color">Bihar Office</h5>
                             <p>
-                                Monday to Friday : 7:00 - 18:00 <br>
-                                Saturday : 9:00 - 15:00
+                                Monday to Friday : 9:00 - 18:00 <br>
                             </p>
                         </div>
                     </div>
@@ -136,7 +135,7 @@
                             </div>
                             <h5 class="text-color">Phone and Fax</h5>
                             <p>
-                                Phone : 9191919191 <br>
+                                Phone : +91 8294918280, 7070800408 <br>
                                 
                             </p>
                         </div>
