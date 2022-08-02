@@ -336,8 +336,8 @@
             <div class="row">
                 <div class="col-md-6 company-address-details mb-3">
                     <h4 class="text-center text-white mt-2">Details</h2>
-                        <p><strong>Reg No</strong> : UDYAM-ER-27-0002681</p>
-                        <P><strong>GST No</strong> : IOCKVPK5930Q1ZI</P>
+                        <p><strong>Reg No</strong> : UDYAM-BR-27-0002681</p>
+                        <P><strong>GST No</strong> : 1OCKVPK5930Q1ZI</P>
                         <p><i class="fa fa-envelope-o" aria-hidden="true"></i> hpmbusiness2@gmail.com</p>
                         <p><i class="fa fa-phone" aria-hidden="true"></i> +91 8294918280, 7070800408</p>
                         <p><i class="fa fa-clock-o" aria-hidden="true"></i> Mon-Friday : 9:00AM to 06:00PM</p>
@@ -347,9 +347,9 @@
                 <div class="col-md-6 company-address-address mb-3">
                     <h4 class="text-center text-white mt-2">Address</h4>
                     <p><strong>Head Office</strong> : Narain Market ,Sadar Bazar New Delhi-110006</p>
-                    <p>HPM Services Bihar Office</p>
+                    <h5 class="font-weight-bold text-white">HPM Services Bihar Office</h5>
                     <p><i class="fa fa-map-marker" aria-hidden="true"></i> N.H 107 Main Road, Jankinagar,
-                        Purnea(Bihar)-854302</p>
+                        Purnea(Bihar)-854102</p>
                     
                 </div>
             </div>
