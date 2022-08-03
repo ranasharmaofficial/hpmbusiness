@@ -4239,3 +4239,7 @@ ul.owl-carousel {
     margin: 2px;
     font-size: 14px;
 }
+.hpm_on_mobileView{
+    display: none;
+    font-weight: 600;
+}

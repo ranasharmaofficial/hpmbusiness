@@ -297,7 +297,7 @@
                         leadership of Mr. Sandeep Kumar. HPM service in Bihar </p>
                 </div>
                 <div class="col-md-3 text-center">
-                    <img style="width: 50%;" src="{{ url('front_assets/img/product_banner.jpg') }}" alt="">
+                    <img class="product_banner_image" src="{{ url('front_assets/img/product_banner.jpg') }}" alt="">
                 </div>
             </div>
         </div>
