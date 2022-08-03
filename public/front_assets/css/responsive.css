@@ -8,6 +8,12 @@
 }
 /* [medium screen] */
 @media screen and (max-width: 768px) {
+    .hpm_on_mobileView{
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 45px;
+    }
     .header-logo {
         padding: 15px 0;
     }
