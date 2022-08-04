@@ -13,6 +13,8 @@
         margin-top: 5px;
         margin-bottom: 5px;
         font-size: 45px;
+        border-bottom: 1px solid #a9a8a8;
+        font-weight: 600;
     }
     .header-logo {
         padding: 15px 0;
